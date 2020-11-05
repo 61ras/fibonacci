@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov  5 19:45:49 2020
-
-@author: Aslih
-"""
-
+# recursive kodlama
 def fibonacci(sinir):
       if sinir < 2:
           return sinir
@@ -22,3 +16,21 @@ while sinir:
         break
     else:
         sinir=int(input("Sınır değeri pozitif olmalı!:\n"))
+            
+ #iteratif kodlama
+def fibonacci(sinir):
+      sayi1=0
+      sayi2=1
+      print(sayi1)
+      print(sayi2)
+      for i in range(sinir-2):
+        sayi3=sayi1+sayi2
+        print(sayi3)
+        sayi1=sayi2
+        sayi2=sayi3
+
+sinir=int(input("Lütfen sınır degerini giriniz:\n"))
+if(sinir>0): fibonacci(sinir)
+else:
+        sinir=int(input("Sınır değeri pozitif olmalı!:\n"))
+        fibonacci(sinir)
