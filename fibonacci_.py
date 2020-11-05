@@ -32,5 +32,5 @@ def fibonacci(sinir):
 sinir=int(input("Lütfen sınır degerini giriniz:\n"))
 if(sinir>0): fibonacci(sinir)
 else:
-        sinir=int(input("Sınır değeri pozitif olmalı!:\n"))
-        fibonacci(sinir)
+     sinir=int(input("Sınır değeri pozitif olmalı!:\n"))
+     fibonacci(sinir)
