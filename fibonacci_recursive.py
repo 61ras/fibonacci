@@ -5,7 +5,7 @@ def fibonacci(sinir):
         return (fibonacci(sinir-1) + fibonacci(sinir-2))
 
 
-sinir = int(input("Lütfen sınır degerini giriniz:\n"))
+sinir = int(input("Lütfen sınır degerini giriniz:"))
 while sinir:
     if(sinir > 0):
         print("Fibonacci Dizisi:")
@@ -14,4 +14,4 @@ while sinir:
 
         break
     else:
-        sinir = int(input("Sınır değeri pozitif olmalı!:\n"))
+        sinir = int(input("Sınır değeri pozitif olmalı!:"))
