@@ -4,15 +4,15 @@ def fibonacci(sinir):
     print(sayi1)
     print(sayi2)
     for _ in range(sinir-2):
-        sayi3 = sayi1+sayi2
+        sayi3 = sayi1 + sayi2
         print(sayi3)
         sayi1 = sayi2
         sayi2 = sayi3
 
 
-sinir = int(input("Lütfen sınır degerini giriniz:\n"))
+sinir = int(input("Lütfen sınır degerini giriniz:"))
 if(sinir > 0):
     fibonacci(sinir)
 else:
-    sinir = int(input("Sınır değeri pozitif olmalı!:\n"))
+    sinir = int(input("Sınır değeri pozitif olmalı!:"))
     fibonacci(sinir)
